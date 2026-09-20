@@ -11,4 +11,5 @@ def test_rag_pipeline():
     print(answer)
 
     assert answer is not None
-    assert len(answer) > 0
+    assert answer.strip() != ""
+    assert "-18°C" in answer
