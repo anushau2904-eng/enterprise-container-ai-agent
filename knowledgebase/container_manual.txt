@@ -1,0 +1,37 @@
+Container Management Manual
+
+1. Container Status
+
+A container can have one of two primary operational statuses:
+LOADED or EMPTY.
+
+A container is considered LOADED when cargo is detected inside the container.
+
+A container is considered EMPTY when no cargo is detected.
+
+2. Container Types
+
+The system supports the following container types:
+
+DRY
+REEFER
+TANK
+
+3. Reefer Containers
+
+Reefer containers are temperature-controlled containers.
+
+For frozen cargo, the recommended operating temperature is -18°C.
+
+4. Container Locations
+
+The system stores the current location of each container.
+
+A container location may change as the container moves between facilities.
+
+5. Container Identification
+
+Every container has a unique Container ID.
+
+Example:
+CONT1001

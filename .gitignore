@@ -1,0 +1,6 @@
+.venv/
+.deepeval/
+chroma_db/
+__pycache__/
+.pytest_cache/
+*.pyc*.db
